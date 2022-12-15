@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "630960751545",
+    "project_id": "shopquick-7f8ec",
+    "storage_bucket": "shopquick-7f8ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630960751545:android:af991ce24ad34d97b86c68",
+        "android_client_info": {
+          "package_name": "com.example.shopquick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630960751545-qp8jkq8f72s5ks3hbbqcsf2pr61s9vi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg8xB6wwmo-0DwlgBOpyCztJmcqiwb6FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630960751545-qp8jkq8f72s5ks3hbbqcsf2pr61s9vi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

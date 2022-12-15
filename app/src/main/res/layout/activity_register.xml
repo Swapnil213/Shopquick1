@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:background="#e6e6e6">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:background="@drawable/lg"
+            android:layout_gravity="center"
+            android:scaleX="1.75"
+            android:scaleY="5"
+            android:contentDescription="TODO">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="3dp"
+            android:text="Welcome"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:id="@+id/signInText"
+            android:background="@drawable/signup_bg">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="sign_in.   "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Already a customer ?"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Create account .  "
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="New to amazon ?"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:id="@+id/regUn"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:hint="Username"
+            android:textColorHint="#ae636363"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edittextshape">
+        </EditText>
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:id="@+id/regemail"
+            android:textColor="@color/black"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColorHint="#ae636363"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edittextshape">
+        </EditText>
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:id="@+id/regpass"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="#ae636363"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edittextshape">
+        </EditText>
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:id="@+id/regconfirmpass"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:hint="Confirm Password"
+            android:textColorHint="#ae636363"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@drawable/edittextshape">
+        </EditText>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:id="@+id/subtn"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/signin_bg">
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</FrameLayout>
